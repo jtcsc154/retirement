@@ -1,0 +1,8 @@
+language: python
+python:
+  - "3.6"
+  - "nightly"
+install:
+  - "pip install pytest"
+  - "pip install pytest-bdd"
+script: python -m pytest test_retirement.py
